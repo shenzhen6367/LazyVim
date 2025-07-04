@@ -1,0 +1,30 @@
+## omit the commit_types to use the default angular-style commit types
+# commit_types:
+#   - feat: adds a new feature
+#   - fix: fixes a bug
+#   - docs: changes only the documentation
+#   - style: changes the style but not the meaning of the code (such as formatting)
+#   - perf: improves performance
+#   - test: adds or corrects tests
+#   - build: changes the build system or external dependencies
+#   - chore: changes outside the code, docs, or tests
+#   - ci: changes to the Continuous Integration (CI) system
+#   - refactor: changes the code without changing behavior
+#   - revert: reverts prior changes
+# scopes:
+#   - scope: description of what the short-form `scope` represents
+
+commit_types:
+  - feat: 增加一个新功能
+  - fix: 修复一个 Bug
+  - docs: 仅修改文档
+  - style: 修改代码格式但不改变代码含义（例如格式化）
+  - perf: 提升性能
+  - test: 增加或修正测试
+  - build: 修改构建系统或外部依赖
+  - chore: 代码、文档或测试之外的其他修改
+  - ci: 修改持续集成（CI）系统
+  - refactor: 修改代码但不改变行为
+  - revert: 回滚之前的修改
+scopes:
+  - custom: 个性化调整
