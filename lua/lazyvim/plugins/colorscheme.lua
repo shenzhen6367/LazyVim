@@ -4,7 +4,20 @@ return {
   {
     "folke/tokyonight.nvim",
     lazy = true,
-    opts = { style = "moon" },
+    opts = {
+      -- transparent = true,
+      style = "moon",
+      styles = {
+        -- sidebars = "transparent",
+        -- floats = "transparent",
+      },
+      on_highlights = function(highlights, colors)
+        highlights.WinSeparator = {
+          bold = true,
+          fg = "#000000",
+        }
+      end,
+    },
   },
 
   -- catppuccin
